@@ -1,12 +1,26 @@
+body{
+    background: rgb(245, 245, 245);
+    /* background-color: antiquewhite; */
+}
+.form-control {
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid #ced4da;
+    text-align: center;
+}
+.form-control:focus{
+    border-color: #ced4da;
+    box-shadow: 0px,
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+button{
+    float: right;
+}
+.list-group-item{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-align: center;
+ }
